@@ -1,0 +1,54 @@
+body {
+    background: rgb(229, 241, 255);
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 6em;
+}
+
+header {
+    background: rgb(204, 227, 255);
+    display: flex;
+}
+
+header img {
+    margin: 0.5em 0em 0em 0.5em;
+}
+
+header H1 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+}
+
+footer {
+    background: rgb(216, 216, 216);
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+footer p {
+    font-size: x-small;
+}
