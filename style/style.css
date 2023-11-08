@@ -137,7 +137,7 @@ main a:active {
     background: rgb(0, 46, 102);
 }
 
-div img {
+main div img {
     width: 40%;
     margin: 1em;
     border-radius: 25px;
