@@ -137,13 +137,13 @@ main a:active {
     background: rgb(0, 46, 102);
 }
 
-main div img {
+main section img {
     width: 40%;
     margin: 1em;
     border-radius: 25px;
 }
 
-div a {
+section a {
     color: white;
     background: rgb(0, 46, 102);
     font-size: 1.1em;
@@ -153,31 +153,31 @@ div a {
     border-radius: 25px;
 }
 
-div img:nth-of-type(3) {
+section img:nth-of-type(3) {
     margin-bottom: 2.5em;
 }
 
-div img:nth-of-type(4) {
+section img:nth-of-type(4) {
     margin-bottom: 2.5em;
 }
 
-div a:link {
+section a:link {
     color: white;
     text-decoration: none;
 }
 
-div a:visited {
+section a:visited {
     color: white;
     text-decoration: none;
 }
 
-div a:hover {
+section a:hover {
     color: white;
     text-decoration: none;
     background: rgb(32, 32, 32);
 }
 
-div a:active {
+section a:active {
     color: white;
     text-decoration: none;
     background: rgb(32, 32, 32);
@@ -217,16 +217,16 @@ footer a:active {
     text-decoration: none;
 }
 
-body section h1 {
+body div h1 {
     text-align: center;
 }
 
-body section p {
+body div p {
     text-align: center;
     font-size: 0.8em;
     margin-top: 2em;
 }
 
-body section img {
+body div img {
     margin-left: 7.5em;
 }
