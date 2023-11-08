@@ -1,7 +1,7 @@
 body {
     background: rgb(229, 241, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    color: rgb(32, 32, 32);
 }
 
 body, html {
@@ -18,10 +18,14 @@ nav {
     top: 7em;
 }
 
+nav ul li {
+    list-style-type: none;
+}
+
 header {
     background: rgb(204, 227, 255);
     display: flex;
-    text-align: end;
+    justify-content: space-between;
 }
 
 header img {
@@ -33,12 +37,14 @@ header img {
 h1 {
     font-size: 1.5em;
     margin: 0.9em 0.8em;
+    text-align: right;
 }
 
 h2 {
     font-size: 1.2em;
     margin: 1em;
     margin-left: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 h3 {
@@ -52,17 +58,59 @@ main img {
 main p {
     text-align: left;
     margin-left: 2em;
-    margin-right: 4em;
-    margin-bottom: 6em;
+    margin-right: 5em;
+    margin-bottom: 3em;
     font-size: 0.9em;
 }
 
-main a {
+main p a {
     background: white;
-    font-size: 1.1em;
+    font-size: 0.9em;
     padding: 1.8em;
-    margin-left: 3.5em;
-    border-radius: 50%;
+    margin-left: 5.5em;
+    border: 2.5px solid rgb(32, 32, 32);
+    border-radius: 25px;
+}
+
+main ul li {
+    list-style-type: none;
+    margin-top: 3em;
+}
+
+main ul p {
+    margin-left: 0;
+    padding: 0.8em;
+    border: 2.5px solid rgb(32, 32, 32);
+    border-radius: 25px;
+    background: white;
+}
+
+main ul a {
+    color: white;
+    background: rgb(0, 46, 102);
+    font-size: 1.1em;
+    padding: 0.6em;
+    margin-left: 5em;
+    border: 2.5px solid rgb(32, 32, 32);
+    border-radius: 25px;
+}
+
+main ul a:link {
+    color: white;
+}
+
+main ul a:visited {
+    color: white;
+}
+
+main ul a:hover {
+    color: white;
+    background: rgb(32, 32, 32);
+}
+
+main ul a:active {
+    color: white;
+    background: rgb(32, 32, 32);
 }
 
 main a:link {
@@ -89,11 +137,18 @@ main a:active {
     background: rgb(0, 46, 102);
 }
 
+section img {
+    width: 40%;
+    margin: 1em;
+    border-radius: 25px;
+}
+
 footer {
     background: rgb(216, 216, 216);
     text-align: center;
     padding-top: 0.5em;
     padding-bottom: 1em;
+    margin-top: 3em;
 }
 
 footer p {
